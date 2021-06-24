@@ -1,0 +1,364 @@
+2019-04-28 23:41:35 [-][-][-][error][ParseError] ParseError: syntax error, unexpected 'private' (T_PRIVATE) in C:\xampp\htdocs\outsource\commands\HelloController.php:56
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\commands\\He...')
+#1 [internal function]: spl_autoload_call('app\\commands\\He...')
+#2 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\commands\\He...')
+#3 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('hello')
+#4 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('generate-users')
+#5 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('hello/generate-...', Array)
+#6 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('hello/generate-...', Array)
+#7 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 C:\xampp\htdocs\outsource\yii(20): yii\base\Application->run()
+#9 {main}
+2019-04-28 23:41:35 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gavor\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-6IR9HMJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gavor'
+    'LOCALAPPDATA' => 'C:\\Users\\gavor\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-6IR9HMJ'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => 'C:\\xampp\\mysql\\bin'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\gavor\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\gavor\\OneDrive'
+    'OPENSSL_CONF' => 'C:/xampp/apache/conf/openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => ';C:\\xampp\\;C:\\xampp\\php;C:\\xampp\\perl\\site\\bin;C:\\xampp\\perl\\bin;C:\\xampp\\apache\\bin;C:\\xampp\\mysql\\bin;C:\\xampp\\FileZillaFTP;C:\\xampp\\MercuryMail;C:\\xampp\\sendmail;C:\\xampp\\webalizer;C:\\xampp\\tomcat\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Git\\cmd;C:\\Users\\gavor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;C:\\Users\\gavor\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPRC' => 'C:\\xampp\\php'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;'
+    'PHP_PEAR_BIN_DIR' => 'C:\\xampp\\php'
+    'PHP_PEAR_CFG_DIR' => 'C:\\xampp\\php\\cfg'
+    'PHP_PEAR_DATA_DIR' => 'C:\\xampp\\php\\data'
+    'PHP_PEAR_DOC_DIR' => 'C:\\xampp\\php\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'C:\\xampp\\php\\pear'
+    'PHP_PEAR_PHP_BIN' => 'C:\\xampp\\php\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'C:\\xampp\\php'
+    'PHP_PEAR_TEST_DIR' => 'C:\\xampp\\php\\tests'
+    'PHP_PEAR_WWW_DIR' => 'C:\\xampp\\php\\www'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => 'gavor@DESKTOP-6IR9HMJ$S$P$_#$S'
+    'PSModulePath' => '%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gavor\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\xampp\\tmp'
+    'USERDOMAIN' => 'DESKTOP-6IR9HMJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-6IR9HMJ'
+    'USERNAME' => 'gavor'
+    'USERPROFILE' => 'C:\\Users\\gavor'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556487695.5727
+    'REQUEST_TIME' => 1556487695
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello/generate-users'
+        2 => '3'
+    ]
+    'argc' => 3
+]
+2019-04-28 23:45:00 [-][-][-][error][ParseError] ParseError: syntax error, unexpected 'private' (T_PRIVATE) in C:\xampp\htdocs\outsource\commands\HelloController.php:56
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\commands\\He...')
+#1 [internal function]: spl_autoload_call('app\\commands\\He...')
+#2 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\commands\\He...')
+#3 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('hello')
+#4 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('generate-users')
+#5 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('hello/generate-...', Array)
+#6 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('hello/generate-...', Array)
+#7 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 C:\xampp\htdocs\outsource\yii(20): yii\base\Application->run()
+#9 {main}
+2019-04-28 23:45:00 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gavor\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-6IR9HMJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gavor'
+    'LOCALAPPDATA' => 'C:\\Users\\gavor\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-6IR9HMJ'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => 'C:\\xampp\\mysql\\bin'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\gavor\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\gavor\\OneDrive'
+    'OPENSSL_CONF' => 'C:/xampp/apache/conf/openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => ';C:\\xampp\\;C:\\xampp\\php;C:\\xampp\\perl\\site\\bin;C:\\xampp\\perl\\bin;C:\\xampp\\apache\\bin;C:\\xampp\\mysql\\bin;C:\\xampp\\FileZillaFTP;C:\\xampp\\MercuryMail;C:\\xampp\\sendmail;C:\\xampp\\webalizer;C:\\xampp\\tomcat\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Git\\cmd;C:\\Users\\gavor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;C:\\Users\\gavor\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPRC' => 'C:\\xampp\\php'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;'
+    'PHP_PEAR_BIN_DIR' => 'C:\\xampp\\php'
+    'PHP_PEAR_CFG_DIR' => 'C:\\xampp\\php\\cfg'
+    'PHP_PEAR_DATA_DIR' => 'C:\\xampp\\php\\data'
+    'PHP_PEAR_DOC_DIR' => 'C:\\xampp\\php\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'C:\\xampp\\php\\pear'
+    'PHP_PEAR_PHP_BIN' => 'C:\\xampp\\php\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'C:\\xampp\\php'
+    'PHP_PEAR_TEST_DIR' => 'C:\\xampp\\php\\tests'
+    'PHP_PEAR_WWW_DIR' => 'C:\\xampp\\php\\www'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => 'gavor@DESKTOP-6IR9HMJ$S$P$_#$S'
+    'PSModulePath' => '%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gavor\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\xampp\\tmp'
+    'USERDOMAIN' => 'DESKTOP-6IR9HMJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-6IR9HMJ'
+    'USERNAME' => 'gavor'
+    'USERPROFILE' => 'C:\\Users\\gavor'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556487900.115
+    'REQUEST_TIME' => 1556487900
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello/generate-users'
+        2 => '3'
+    ]
+    'argc' => 3
+]
+2019-04-28 23:46:01 [-][-][-][error][ParseError] ParseError: syntax error, unexpected 'private' (T_PRIVATE) in C:\xampp\htdocs\outsource\commands\HelloController.php:56
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\commands\\He...')
+#1 [internal function]: spl_autoload_call('app\\commands\\He...')
+#2 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\commands\\He...')
+#3 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('hello')
+#4 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('generate-users')
+#5 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('hello/generate-...', Array)
+#6 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('hello/generate-...', Array)
+#7 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 C:\xampp\htdocs\outsource\yii(20): yii\base\Application->run()
+#9 {main}
+2019-04-28 23:46:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gavor\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-6IR9HMJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gavor'
+    'LOCALAPPDATA' => 'C:\\Users\\gavor\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-6IR9HMJ'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => 'C:\\xampp\\mysql\\bin'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\gavor\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\gavor\\OneDrive'
+    'OPENSSL_CONF' => 'C:/xampp/apache/conf/openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => ';C:\\xampp\\;C:\\xampp\\php;C:\\xampp\\perl\\site\\bin;C:\\xampp\\perl\\bin;C:\\xampp\\apache\\bin;C:\\xampp\\mysql\\bin;C:\\xampp\\FileZillaFTP;C:\\xampp\\MercuryMail;C:\\xampp\\sendmail;C:\\xampp\\webalizer;C:\\xampp\\tomcat\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Git\\cmd;C:\\Users\\gavor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;C:\\Users\\gavor\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPRC' => 'C:\\xampp\\php'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;'
+    'PHP_PEAR_BIN_DIR' => 'C:\\xampp\\php'
+    'PHP_PEAR_CFG_DIR' => 'C:\\xampp\\php\\cfg'
+    'PHP_PEAR_DATA_DIR' => 'C:\\xampp\\php\\data'
+    'PHP_PEAR_DOC_DIR' => 'C:\\xampp\\php\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'C:\\xampp\\php\\pear'
+    'PHP_PEAR_PHP_BIN' => 'C:\\xampp\\php\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'C:\\xampp\\php'
+    'PHP_PEAR_TEST_DIR' => 'C:\\xampp\\php\\tests'
+    'PHP_PEAR_WWW_DIR' => 'C:\\xampp\\php\\www'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => 'gavor@DESKTOP-6IR9HMJ$S$P$_#$S'
+    'PSModulePath' => '%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gavor\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\xampp\\tmp'
+    'USERDOMAIN' => 'DESKTOP-6IR9HMJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-6IR9HMJ'
+    'USERNAME' => 'gavor'
+    'USERPROFILE' => 'C:\\Users\\gavor'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556487961.5297
+    'REQUEST_TIME' => 1556487961
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello/generate-users'
+        2 => '3'
+    ]
+    'argc' => 3
+]
+2019-04-28 23:52:33 [-][-][-][error][ParseError] ParseError: syntax error, unexpected 'private' (T_PRIVATE) in C:\xampp\htdocs\outsource\commands\HelloController.php:59
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\commands\\He...')
+#1 [internal function]: spl_autoload_call('app\\commands\\He...')
+#2 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\commands\\He...')
+#3 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('hello')
+#4 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('generate-users')
+#5 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('hello/generate-...', Array)
+#6 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('hello/generate-...', Array)
+#7 C:\xampp\htdocs\outsource\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 C:\xampp\htdocs\outsource\yii(20): yii\base\Application->run()
+#9 {main}
+2019-04-28 23:52:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\gavor\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-6IR9HMJ'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\gavor'
+    'LOCALAPPDATA' => 'C:\\Users\\gavor\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-6IR9HMJ'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => 'C:\\xampp\\mysql\\bin'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\gavor\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\gavor\\OneDrive'
+    'OPENSSL_CONF' => 'C:/xampp/apache/conf/openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => ';C:\\xampp\\;C:\\xampp\\php;C:\\xampp\\perl\\site\\bin;C:\\xampp\\perl\\bin;C:\\xampp\\apache\\bin;C:\\xampp\\mysql\\bin;C:\\xampp\\FileZillaFTP;C:\\xampp\\MercuryMail;C:\\xampp\\sendmail;C:\\xampp\\webalizer;C:\\xampp\\tomcat\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Git\\cmd;C:\\Users\\gavor\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;C:\\Users\\gavor\\AppData\\Local\\GitHubDesktop\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPRC' => 'C:\\xampp\\php'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2019.1.1\\bin;'
+    'PHP_PEAR_BIN_DIR' => 'C:\\xampp\\php'
+    'PHP_PEAR_CFG_DIR' => 'C:\\xampp\\php\\cfg'
+    'PHP_PEAR_DATA_DIR' => 'C:\\xampp\\php\\data'
+    'PHP_PEAR_DOC_DIR' => 'C:\\xampp\\php\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'C:\\xampp\\php\\pear'
+    'PHP_PEAR_PHP_BIN' => 'C:\\xampp\\php\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'C:\\xampp\\php'
+    'PHP_PEAR_TEST_DIR' => 'C:\\xampp\\php\\tests'
+    'PHP_PEAR_WWW_DIR' => 'C:\\xampp\\php\\www'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => 'gavor@DESKTOP-6IR9HMJ$S$P$_#$S'
+    'PSModulePath' => '%ProgramFiles%\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\gavor\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\xampp\\tmp'
+    'USERDOMAIN' => 'DESKTOP-6IR9HMJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-6IR9HMJ'
+    'USERNAME' => 'gavor'
+    'USERPROFILE' => 'C:\\Users\\gavor'
+    'windir' => 'C:\\Windows'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1556488353.7381
+    'REQUEST_TIME' => 1556488353
+    'argv' => [
+        0 => 'yii'
+        1 => 'hello/generate-users'
+        2 => '3'
+    ]
+    'argc' => 3
+]
